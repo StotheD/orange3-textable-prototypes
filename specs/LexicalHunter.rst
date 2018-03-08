@@ -1,5 +1,5 @@
 ﻿#################################
-Specification widget Topic models
+Specification widget LexicalHunter
 #################################
 
 1 Introduction
@@ -7,11 +7,11 @@ Specification widget Topic models
 
 1.1 But du projet
 =================
-Créer un widget pour Orange Textable (v3.0b0) permettant l'application de techniques de topic modelling à des matrices documents--termes.
+Créer un widget pour Orange Textable permettant de détecter des champs lexicaux en fonction de listes de mots préétablies.
 
 1.2 Aperçu des étapes
 =====================
-* Premiere version de la specification: 16 mars 2017
+* Premiere version de la specification: 15 mars 2018
 * Remise de la specification: 23 mars 2017
 * Version alpha du projet: 27 avril 2017
 * Remise et presentation du projet:  25 mai 2017
@@ -19,16 +19,29 @@ Créer un widget pour Orange Textable (v3.0b0) permettant l'application de techn
 1.3 Equipe et responsabilitées
 ==============================
 
-* Aris Xanthos (`aris.xanthos@unil.ch`_):
+* Simon Cappelle (`simon.cappelle@unil.ch`_):
 
-.. _aris.xanthos@unil.ch: mailto:aris.xanthos@unil.ch
+.. _simon.cappelle@unil.ch: mailto:simon.cappelle@unil.ch
 
     - specification
-    - interface
     - code
     - documentation
-    - préparation du café
-    - consommation du café
+
+* Maxime Bony (`maxime.bony@unil.ch`_):
+
+.. _maxime.bony@unil.ch: mailto:maxime.bony@unil.ch
+
+    - illustration
+    - code
+    - documentation
+
+* Robin Pitteloud (`robin.pitteloud@unil.ch`_):
+
+.. _robin.pitteloud@unil.ch: mailto:robin.pitteloud@unil.ch
+
+    - code
+    - documentation
+    - debuggage
 
 2. Technique
 ************
@@ -45,31 +58,27 @@ Créer un widget pour Orange Textable (v3.0b0) permettant l'application de techn
 2.2 Fonctionnalités minimales
 =============================
 
-.. image:: images/topic_models_minimal.png
+* Input : Un ou plusieurs segments
 
-* permettre le choix du nombre de topics.
+* permettre le choix d'un ou plusieurs "champs lexicaux" parmis ceux proposés par défaut.
 
-* appliquer la méthode LSI et envoyer en output les tableaux topics--documents et topics--mots.
+* Output : les segments d'entrées formatés en XML afin d'assigner chaque mot trouvé au champs lexical correspondant.
 
 2.3 Fonctionnalités principales
 ===============================
 
-.. image:: images/topic_models_principal.png
-
-* permettre le choix de la méthode (LSI ou LDA).
+* Permettre d'importer, modifier et supprimer des listes de champs lexicaux.
 
 2.4 Fonctionnalités optionnelles
 ================================
 
-* Ajouter une zone pour visualiser les associations topics-mots
-
-* Ajouter des réglages avancés pour les paramètres LDA (*eta*, etc.)
+* Afficher un aperçu du texte mis en forme (couleur/champs)
 
 
 2.5 Tests
 =========
 
-Fonctions de test des résultats des matrices générées pour un corpus d'exemple.
+Interaction du texte de sortie avec le widjet segment de Textable.
 
 3. Etapes
 *********
