@@ -112,3 +112,4 @@ build/*
 Thumbs.db
 
 release.bat
+.DS_Store
