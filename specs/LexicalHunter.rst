@@ -12,9 +12,9 @@ Créer un widget pour Orange Textable permettant de détecter des champs lexicau
 1.2 Aperçu des étapes
 =====================
 * Premiere version de la specification: 15 mars 2018
-* Remise de la specification: 23 mars 2017
-* Version alpha du projet: 27 avril 2017
-* Remise et presentation du projet:  25 mai 2017
+* Remise de la specification: 22 mars 2018
+* Version alpha du projet: 26 avril 2018
+* Remise et presentation du projet:  24 mai 2018
 
 1.3 Equipe et responsabilitées
 ==============================
@@ -34,6 +34,7 @@ Créer un widget pour Orange Textable permettant de détecter des champs lexicau
     - illustration
     - code
     - documentation
+    - Verification ortographique
 
 * Robin Pitteloud (`robin.pitteloud@unil.ch`_):
 
@@ -49,11 +50,16 @@ Créer un widget pour Orange Textable permettant de détecter des champs lexicau
 2.1 Dépendances
 ===============
 
-* Orange 3.4
+<<<<<<< HEAD
+* Orange 3.4 ou supérieur
 
-* Orange Textable 3.0b0
+* Orange Textable 3.0b0 ou supérieur
+=======
+* Orange 3.4 ou suppérieur
 
-* gensim 0.13.4 (ou 1.0.1 si compatible avec Python 3.4?)
+* Orange Textable 3.0b0 ou suppérieur
+>>>>>>> 8e2db84872c3f396c8ca24afd7ff8ff6385526dd
+
 
 2.2 Fonctionnalités minimales
 =============================
