@@ -50,16 +50,9 @@ Créer un widget pour Orange Textable permettant de détecter des champs lexicau
 2.1 Dépendances
 ===============
 
-<<<<<<< HEAD
 * Orange 3.4 ou supérieur
 
 * Orange Textable 3.0b0 ou supérieur
-=======
-* Orange 3.4 ou suppérieur
-
-* Orange Textable 3.0b0 ou suppérieur
->>>>>>> 8e2db84872c3f396c8ca24afd7ff8ff6385526dd
-
 
 2.2 Fonctionnalités minimales
 =============================
