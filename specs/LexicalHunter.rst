@@ -7,7 +7,7 @@ Specification widget LexicalHunter
 
 1.1 But du projet
 =================
-Créer un widget pour Orange Textable permettant de détecter des champs lexicaux en fonction de listes de mots préétablies.
+Créer un widget pour Orange Textable permettant de détecter des champs lexicaux en fonction de listes de mots choisies par l'utilisateur.
 
 1.2 Aperçu des étapes
 =====================
@@ -59,7 +59,7 @@ Créer un widget pour Orange Textable permettant de détecter des champs lexicau
 
 * Input : Un ou plusieurs segments
 
-* permettre le choix d'un ou plusieurs "champs lexicaux" parmis ceux proposés par défaut.
+* Permettre le choix d'un ou plusieurs "champs lexicaux" parmis ceux proposés par défaut.
 
 * Output : les segments d'entrées formatés en XML afin d'assigner chaque mot trouvé au champs lexical correspondant.
 
