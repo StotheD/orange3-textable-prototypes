@@ -23,6 +23,7 @@ Créer un widget pour Orange Textable permettant de détecter des champs lexicau
 
 .. _simon.cappelle@unil.ch: mailto:simon.cappelle@unil.ch
 
+    - illustration
     - specification
     - code
     - documentation
@@ -40,9 +41,11 @@ Créer un widget pour Orange Textable permettant de détecter des champs lexicau
 
 .. _robin.pitteloud@unil.ch: mailto:robin.pitteloud@unil.ch
 
+    - illustration
     - code
     - documentation
     - debuggage
+    - Verification ortographique
 
 2. Technique
 ************
@@ -50,7 +53,7 @@ Créer un widget pour Orange Textable permettant de détecter des champs lexicau
 2.1 Dépendances
 ===============
 
-* Orange 3.4 ou supérieur
+* Orange 3.7 ou supérieur
 
 * Orange Textable 3.0b0 ou supérieur
 
@@ -61,23 +64,24 @@ Créer un widget pour Orange Textable permettant de détecter des champs lexicau
 
 * Permettre le choix d'un ou plusieurs "champs lexicaux" parmis ceux proposés par défaut.
 
-* Output : les segments d'entrée formatés en XML afin d'assigner chaque mot trouvé au champs lexical correspondant.
+* Output : les segments d'entrée annotés avec une valeur de clé d'annotation choisie par l'utilisateur.
 
 2.3 Fonctionnalités principales
 ===============================
+
+* Fonctionnalités minimales
 
 * Permettre d'importer, modifier et supprimer des listes de champs lexicaux.
 
 2.4 Fonctionnalités optionnelles
 ================================
 
-* Afficher un aperçu du texte mis en forme (couleur/champs)
-
+* Histogramme de la distribution des éléments
 
 2.5 Tests
 =========
 
-Interaction du texte de sortie avec le widjet segment de Textable.
+Interaction du texte de sortie avec le widget segment de Textable.
 
 3. Etapes
 *********
